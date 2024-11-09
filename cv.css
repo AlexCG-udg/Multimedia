@@ -48,7 +48,6 @@ h2 {
     padding: 20px;
 }
 
-
 .information {
     width: 60%;
 }
@@ -118,7 +117,6 @@ a:hover{
     border: 2px solid #658ae0;
     width: 60%;
     max-width: 648px; /*60% de 1080px*/    
-    
 }
 
 .contact li{
@@ -135,4 +133,48 @@ a:hover{
     margin-right: 10px;
     color: #4871cd;
     font-weight: bold;
+}
+
+
+
+
+.doubleContainer {
+    display: flex;
+    justify-content: center;
+
+    gap: 10%;
+    padding: 20px;
+    margin: 30px auto;
+
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;        
+}
+
+.doubleContainer h2{
+    text-align: center;
+}
+
+.skill, .language{
+    width: 40%;
+}
+
+.skill li{
+    list-style-type: circle ;
+    border-left: none;
+    padding-left: 5px;
+    margin-left: 20px;
+    margin-bottom: 0px
+}
+
+.language li{
+    padding: 6px 12px;
+    margin: 12px 0;
+    background-color: #f9fbfe;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #658ae0;    
+}
+
+.language strong{
+    color: #4871cd;
 }
